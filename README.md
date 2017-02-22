@@ -7,11 +7,11 @@ Ionic 2 ES6 starter: Babel + Gulp + Browserify + SASS + live-server
 
 ``` shell
 $ npm install # init the package;
-$ ion serve # use this for live-reload mode;
-$ ion build # for single build of the dist folder;
-$ ion deploy # for uglify + SASS compressed outputs in the www folder;
-$ ion run android # Live-reload for debug the app in a android device/emulator;
-$ ion run ios # The same for ios;
+$ npm run serve # use this for live-reload mode;
+$ npm run build # for single build of the dist folder;
+$ npm run deploy # for uglify + SASS compressed outputs in the www folder;
+$ npm run android # Live-reload for debug the app in a android device/emulator;
+$ npm run ios # The same for ios;
 ```
 
 ## TOOLS

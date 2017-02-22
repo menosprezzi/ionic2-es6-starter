@@ -3,11 +3,11 @@
   "version": "1.1.1",
   "description": "Ionic 2 ES6 starter: Babel + Gulp + Browserify + SASS + live-server",
   "scripts": {
-    "ion:build": "gulp build",
-    "ion:serve": "gulp serve",
-    "ion:run:android": "gulp serve --noserve && ionic run android -l",
-    "ion:run:ios": "gulp serve --noserve && ionic run ios -l",
-    "ion:deploy": "gulp deploy"
+    "build": "gulp build",
+    "serve": "gulp serve",
+    "android": "gulp serve --noserve && ionic run android -l",
+    "ios": "gulp serve --noserve && ionic run ios -l",
+    "deploy": "gulp deploy"
   },
   "dependencies": {
     "@angular/common": "2.2.1",
